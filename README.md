@@ -4,7 +4,8 @@
 ## Contents:
 - [1. Overview](#1-overview)
 - [2. Tech Stack](#2-tech-stack)
-- [3. REST Api Structure](#3-rest-api-structure)
+- [3. Models](#3-models)
+- [](#4)
 ----------------------
 
 
@@ -42,10 +43,29 @@ The application will be developed using the following technologies:
     - The **Leaflet** library will be used to render the map and different map-related elements, pins, coordinates, etc.
 - ElasticSearch for searching through the workouts at a great speed.
 
-## 3. REST API Structure
+## 3. Models
 Considering we have an application focused around workouts and users, the first two models that should be added are: 
 - User
 - Workout 
+
+Further describing the models will reveal:
+- **User Model**:
+    - *ID*: Unique identifier for each user.
+    - *Username*: User's login identifier.
+    - *Password*: Encrypted password for user authentication.
+
+- **Workout Model**:
+    - *ID*: Unique identifier for each workout.
+    - *User ID*: Identifier linking the workout to a specific user.
+    - *Type*: Type of workout (e.g., running, swimming, calisthenics).
+    - *Date*: Date when the workout occurred.
+    - *Duration*: Duration of the workout in minutes or hours.
+    - *Distance*: Distance covered during the workout (optional).
+    - *Location*: Location where the workout took place (optional).
+    - *Notes*: Additional details or comments about the workout (optional).
+
+## 4. REST API Structure
+The structure for the REST API interface required by our application to function will be the following:
 
 | HTTP Method | Route                         | Description (Users)                                    |
 |-------------|-------------------------------|--------------------------------------------------------|
