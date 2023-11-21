@@ -5,7 +5,7 @@
 - [1. Overview](#1-overview)
 - [2. Tech Stack](#2-tech-stack)
 - [3. Models](#3-models)
-- [](#4)
+- [4. REST API Structure](#4-rest-api-structure)
 ----------------------
 
 
