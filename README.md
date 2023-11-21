@@ -45,12 +45,7 @@ The application will be developed using the following technologies:
 ## 3. REST API Structure
 Considering we have an application focused around workouts and users, the first two models that should be added are: 
 - User
-- Workout
-
-They should also be associated, like an workout can only be placed by a user. Besides this, considering the nature of our workouts we can further divide the workout model into two non hierarchical models leaving us with the following models:
-1. User
-2. Localized Workout (calisthenics, outdoor force workout, etc.)
-3. Transit Workouts (Running, cycling, etc.)
+- Workout 
 
 | HTTP Method | Route                         | Description (Users)                                    |
 |-------------|-------------------------------|--------------------------------------------------------|
