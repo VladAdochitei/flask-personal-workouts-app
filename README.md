@@ -91,3 +91,5 @@ These routes assume a RESTful API structure where `/api/users` handles user-rela
 Note:
 Use CamelCase.
 Add filter keyword to filter users on GET request.
+Don't need UI, ElasticSearch will act as the UI.
+Don't Need DB, ElasticSearch will act as Database.
