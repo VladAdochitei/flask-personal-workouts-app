@@ -56,7 +56,7 @@ Further describing the models will reveal:
 
 - **Workout Model**:
     - *ID*: Unique identifier for each workout.
-    - *User ID*: Identifier linking the workout to a specific user.
+    - *UserId*: Identifier linking the workout to a specific user.
     - *Type*: Type of workout (e.g., running, swimming, calisthenics).
     - *Date*: Date when the workout occurred.
     - *Duration*: Duration of the workout in minutes or hours.
@@ -86,3 +86,8 @@ The structure for the REST API interface required by our application to function
 These routes assume a RESTful API structure where `/api/users` handles user-related operations and `/api/users/{user_id}/workouts` manages workout-related endpoints for specific users. Adjustments or additional routes might be necessary based on your application's specific requirements and functionalities.
 
 
+
+
+Note:
+Use CamelCase.
+Add filter keyword to filter users on GET request.
