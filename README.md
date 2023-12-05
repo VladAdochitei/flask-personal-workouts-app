@@ -89,7 +89,7 @@ These routes assume a RESTful API structure where `/api/users` handles user-rela
 
 ### 5.1. Index
 
-![index](./1-index-pattern.png)
+![index](./1-index-settings.png)
 
 ### 5.2. Index Mapping
 
