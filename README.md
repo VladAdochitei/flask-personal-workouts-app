@@ -85,8 +85,16 @@ The structure for the REST API interface required by our application to function
 
 These routes assume a RESTful API structure where `/api/users` handles user-related operations and `/api/users/{user_id}/workouts` manages workout-related endpoints for specific users. Adjustments or additional routes might be necessary based on your application's specific requirements and functionalities.
 
+## 5. Elastic context
+
+### 5.1. Index
+
+![index](./1-index-pattern.png)
+
+### 5.2. Index Mapping
 
 
+![mapping](./2-mappings.png)
 
 Note:
 Use CamelCase.
